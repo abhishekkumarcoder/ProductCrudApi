@@ -100,8 +100,7 @@ Retrieve a Single Product
    ##URL: http://127.0.0.1:8000/api/singleProduct/{id}
     Method: GET
     Response:
-     json
-    {
+     json{
     "message": "Show Single Product SuccesFully",
     "product": {
         "id": 6,
@@ -113,7 +112,7 @@ Retrieve a Single Product
         "created_at": "2024-07-04T10:58:27.000000Z",
         "updated_at": "2024-07-04T11:04:36.000000Z"
     }
-}
+   
 Create a Product
     URL: http://127.0.0.1:8000/api/storeProduct
     Method: POST
