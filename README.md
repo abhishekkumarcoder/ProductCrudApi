@@ -3,7 +3,7 @@
 
 # Product CRUD API with Laravel
 
-This repository contains a simple Product CRUD (Create, Read, Update, Delete) API built with Laravel. The API allows you to manage products with basic operations.
+This repository contains a ecommerce Product CRUD (Create, Read, Update, Delete) API built with Laravel. The API allows you to manage products with basic operations.
 
 
 ## Introduction
