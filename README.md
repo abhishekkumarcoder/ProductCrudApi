@@ -97,7 +97,7 @@ Retrieve All Products
     ]
 }
 Retrieve a Single Product
-   URL: http://127.0.0.1:8000/api/singleProduct/{id}
+   ##URL: http://127.0.0.1:8000/api/singleProduct/{id}
     Method: GET
     Response:
      json
