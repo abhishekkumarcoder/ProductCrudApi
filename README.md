@@ -1,6 +1,4 @@
-# Product CRUD API with Laravel
 
-This repository contains a simple Product CRUD (Create, Read, Update, Delete) API built with Laravel. The API allows you to manage products with basic operations.
 ## Introduction
 
 # Product CRUD API with Laravel
@@ -11,6 +9,7 @@ This repository contains a simple Product CRUD (Create, Read, Update, Delete) AP
 ## Introduction
 
 This API provides endpoints to perform CRUD operations on products. Each product has the following attributes:
+-image
 - Name
 - Description
 - Price
@@ -102,7 +101,7 @@ Retrieve a Single Product
     Method: GET
     Response:
      json
- {
+    {
     "message": "Show Single Product SuccesFully",
     "product": {
         "id": 6,
