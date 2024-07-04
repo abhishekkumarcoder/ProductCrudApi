@@ -25,7 +25,7 @@ This API provides endpoints to perform CRUD operations on products. Each product
 
 - API Endpoints
 Retrieve All Products
- ##   URL: http://127.0.0.1:8000/api/showProducts
+    URL: /api/showProducts
     Method: GET
     Response:
        json
