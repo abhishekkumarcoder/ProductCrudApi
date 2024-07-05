@@ -10,7 +10,7 @@ This repository contains a ecommerce Product CRUD (Create, Read, Update, Delete)
 
 This API provides endpoints to perform CRUD operations on products. Each product has the following attributes:
 
- -image
+- image
 - Name
 - Description
 - Price
@@ -228,8 +228,8 @@ Run the database migrations to create the necessary tables:
 bash
 php artisan migrate
 
-Testing the API
-You can test the API using tools like Postman
+## Testing the API
+## You can test the API using tools like Postman
   Retrieve All Products
    ## URL: http://127.0.0.1:8000/api/showProducts
    ## Method: GET
