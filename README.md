@@ -22,12 +22,12 @@ This API provides endpoints to perform CRUD operations on products. Each product
 - Retrieve a single product by ID
 - Update an existing product
 - Delete a product
-##Use Postman Or Other Api Testing Softeware for seeing the Result And Testing
+## Use Postman Or Other Api Testing Softeware for seeing the Result And Testing
 - API Endpoints
 Retrieve All Products
-    URL: /api/showProducts
-    Method: GET
-    Response:
+    -URL: /api/showProducts
+    -Method: GET
+    -Response:
        json
      {
     "message": "Product Showed SuccesFully",
