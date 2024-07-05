@@ -24,10 +24,12 @@ This API provides endpoints to perform CRUD operations on products. Each product
 - Update an existing product
 - Delete a product
 ## Use Postman Or Other Api Testing Softeware for seeing the Result And Testing
-- API Endpoints
-Retrieve All Products
-    ## URL: /api/showProducts
-    ## Method: GET
+## API Endpoints
+   
+ ##   Retrieve All Products
+
+ ## URL:http://127.0.0.1:8000/api/showProducts
+ ## Method: GET
       Response:
        json
      {
@@ -97,7 +99,8 @@ Retrieve All Products
         }
     ]
 }
-Retrieve a Single Product
+   ## Retrieve a Single Product
+
    ## URL: http://127.0.0.1:8000/api/singleProduct/{id}
    ## Method: GET
     Response:
@@ -114,10 +117,10 @@ Retrieve a Single Product
         "updated_at": "2024-07-04T11:04:36.000000Z"
    }
    
-Create a Product
-    URL: http://127.0.0.1:8000/api/storeProduct
-    Method: POST
-    Request Body:
+## Create a Product
+## URL: http://127.0.0.1:8000/api/storeProduct
+## Method: POST
+     Request Body:
   
   json
 {
@@ -230,7 +233,9 @@ php artisan migrate
 
 ## Testing the API
 ## You can test the API using tools like Postman
-  Retrieve All Products
+
+   ## Retrieve All Products
+  
    ## URL: http://127.0.0.1:8000/api/showProducts
    ## Method: GET
     Response:
@@ -302,7 +307,8 @@ php artisan migrate
         }
     ]
 }
-Retrieve a Single Product
+  ## Retrieve a Single Product
+ 
   ## URL: http://127.0.0.1:8000/api/singleProduct/{id}
   ##  Method: GET
     Response:
@@ -320,10 +326,11 @@ Retrieve a Single Product
         "updated_at": "2024-07-04T11:04:36.000000Z"
     }
 }
-Create a Product
-    URL: http://127.0.0.1:8000/api/storeProduct
-    Method: POST
-    Request Body:
+## Create a Product
+
+##   URL: http://127.0.0.1:8000/api/storeProduct
+##   Method: POST
+##   Request Body:
   
   json
 {
@@ -351,7 +358,8 @@ Response:
     }
     }
 
-Update a Product
+  ## Update a Product
+  
   ##  URL:http://127.0.0.1:8000/api/editProduct/{id}
   ##  Method: PUT
     Request Body:
@@ -383,7 +391,8 @@ json
 
     }
 
-Delete a Product
+  ##  Delete a Product
+  
   ##  URL: http://127.0.0.1:8000/api/deleteProduct/{id}
   ##  Method: DELETE
     Response:
