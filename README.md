@@ -9,7 +9,8 @@ This repository contains a ecommerce Product CRUD (Create, Read, Update, Delete)
 ## Introduction
 
 This API provides endpoints to perform CRUD operations on products. Each product has the following attributes:
--image
+
+ -image
 - Name
 - Description
 - Price
@@ -25,15 +26,15 @@ This API provides endpoints to perform CRUD operations on products. Each product
 ## Use Postman Or Other Api Testing Softeware for seeing the Result And Testing
 - API Endpoints
 Retrieve All Products
-    -URL: /api/showProducts
-    -Method: GET
-    -Response:
+    ## URL: /api/showProducts
+    ## Method: GET
+      Response:
        json
      {
     "message": "Product Showed SuccesFully",
     "product": 
     
-       [
+           [
              {
               "id": 2,
             "image": "images/1720090389_cloth.jpg",
@@ -97,8 +98,8 @@ Retrieve All Products
     ]
 }
 Retrieve a Single Product
-   ##URL: http://127.0.0.1:8000/api/singleProduct/{id}
-    Method: GET
+   ## URL: http://127.0.0.1:8000/api/singleProduct/{id}
+   ## Method: GET
     Response:
      json{
     "message": "Show Single Product SuccesFully",
@@ -145,8 +146,8 @@ Response:
     }
 
 Update a Product
-    URL:http://127.0.0.1:8000/api/editProduct/{id}
-    Method: PUT
+   ## URL:http://127.0.0.1:8000/api/editProduct/{id}
+   ## Method: PUT
     Request Body:
 
     json
@@ -177,9 +178,9 @@ json
     }
 
 Delete a Product
-    URL: http://127.0.0.1:8000/api/deleteProduct/{id}
-    Method: DELETE
-    Response:
+   ## URL: http://127.0.0.1:8000/api/deleteProduct/{id}
+   ## Method: DELETE
+   ##  Response:
 
     json
     {
@@ -230,8 +231,8 @@ php artisan migrate
 Testing the API
 You can test the API using tools like Postman
   Retrieve All Products
-    URL: http://127.0.0.1:8000/api/showProducts
-    Method: GET
+   ## URL: http://127.0.0.1:8000/api/showProducts
+   ## Method: GET
     Response:
        json
      {
@@ -302,8 +303,8 @@ You can test the API using tools like Postman
     ]
 }
 Retrieve a Single Product
-   URL: http://127.0.0.1:8000/api/singleProduct/{id}
-    Method: GET
+  ## URL: http://127.0.0.1:8000/api/singleProduct/{id}
+  ##  Method: GET
     Response:
      json
  {
@@ -351,8 +352,8 @@ Response:
     }
 
 Update a Product
-    URL:http://127.0.0.1:8000/api/editProduct/{id}
-    Method: PUT
+  ##  URL:http://127.0.0.1:8000/api/editProduct/{id}
+  ##  Method: PUT
     Request Body:
 
     json
@@ -383,8 +384,8 @@ json
     }
 
 Delete a Product
-    URL: http://127.0.0.1:8000/api/deleteProduct/{id}
-    Method: DELETE
+  ##  URL: http://127.0.0.1:8000/api/deleteProduct/{id}
+  ##  Method: DELETE
     Response:
 
     json
